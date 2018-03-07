@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Homan.ScheduleMaster.Infrastructure.Log;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,6 +19,8 @@ namespace Homan.ScheduleMaster.Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            LogManager.Init();
         }
     }
 }
