@@ -51,6 +51,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityFramework\TaskDbContext.cs" />
+    <Compile Include="Log\LogHelper.cs" />
+    <Compile Include="Log\LogManager.cs" />
     <Compile Include="Migrations\201804091229151_init.cs" />
     <Compile Include="Migrations\201804091229151_init.Designer.cs">
       <DependentUpon>201804091229151_init.cs</DependentUpon>
