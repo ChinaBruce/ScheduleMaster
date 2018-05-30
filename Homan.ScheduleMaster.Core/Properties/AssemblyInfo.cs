@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Homan.ScheduleMaster.Base")]
+[assembly: AssemblyTitle("Homan.ScheduleMaster.Core")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Homan.ScheduleMaster.Base")]
+[assembly: AssemblyProduct("Homan.ScheduleMaster.Core")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("c54311df-0de0-475c-a0e8-140c8c06282b")]
+[assembly: Guid("2ffe6eb1-0d79-4603-b611-13fb7455b225")]
 
 // 程序集的版本信息由下列四个值组成: 
 //
