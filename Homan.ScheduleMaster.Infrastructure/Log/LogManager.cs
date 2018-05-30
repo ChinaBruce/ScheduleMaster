@@ -1,14 +1,14 @@
 ﻿
-using Homan.ScheduleMaster.Core;
-using Homan.ScheduleMaster.Core.Models;
-using Homan.ScheduleMaster.Infrastructure.EntityFramework;
+using Homan.ScheduleMaster.Base.Models;
+using Homan.ScheduleMaster.Core.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Homan.ScheduleMaster.Base;
 
-namespace Homan.ScheduleMaster.Infrastructure.Log
+namespace Homan.ScheduleMaster.Core.Log
 {
     public class LogManager
     {

@@ -1,11 +1,11 @@
-﻿using Homan.ScheduleMaster.Core.Models;
+﻿using Homan.ScheduleMaster.Base.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homan.ScheduleMaster.Infrastructure.Log
+namespace Homan.ScheduleMaster.Core.Log
 {
     public class LogHelper
     {

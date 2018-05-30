@@ -1,5 +1,6 @@
-﻿using Homan.ScheduleMaster.Core;
-using Homan.ScheduleMaster.Infrastructure.Log;
+﻿using Homan.ScheduleMaster.Base;
+using Homan.ScheduleMaster.Core;
+using Homan.ScheduleMaster.Core.Log;
 using System;
 using System.Collections.Generic;
 using System.IO;

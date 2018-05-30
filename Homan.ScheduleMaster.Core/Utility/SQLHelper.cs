@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homan.ScheduleMaster.Core.Utility
+namespace Homan.ScheduleMaster.Base.Utility
 {
     public class SQLHelper
     {

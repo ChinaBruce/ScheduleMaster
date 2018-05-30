@@ -1,8 +1,9 @@
-﻿using Homan.ScheduleMaster.Core.Models;
-using Homan.ScheduleMaster.Web.Common;
-using Homan.ScheduleMaster.Web.Dto;
+﻿using Homan.ScheduleMaster.Base.Models;
+using Homan.ScheduleMaster.Core;
+using Homan.ScheduleMaster.Core.Common;
+using Homan.ScheduleMaster.Core.Dto;
+using Homan.ScheduleMaster.Core.Service;
 using Homan.ScheduleMaster.Web.Filters;
-using Homan.ScheduleMaster.Web.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,15 +13,12 @@ using System.Web.Http;
 
 namespace Homan.ScheduleMaster.Web.ApiControllers
 {
-    [RoutePrefix("api/Task")] 
+    [RoutePrefix("api/Task")]
     public class TaskController : BaseController
     {
-        private TaskService _taskService;
+        [Ninject.Inject]
+        private ITaskService _taskService { get; set; }
 
-        public TaskController()
-        {
-            _taskService = new TaskService();
-        }
 
         /// <summary>
         /// 查询分页数据

@@ -1,18 +1,18 @@
-namespace Homan.ScheduleMaster.Infrastructure.Migrations
+namespace Homan.ScheduleMaster.Core.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Homan.ScheduleMaster.Infrastructure.EntityFramework.TaskDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Homan.ScheduleMaster.Core.EntityFramework.TaskDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(Homan.ScheduleMaster.Infrastructure.EntityFramework.TaskDbContext context)
+        protected override void Seed(Homan.ScheduleMaster.Core.EntityFramework.TaskDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homan.ScheduleMaster.Core
+namespace Homan.ScheduleMaster.Base
 {
     /// <summary>
     /// 双向读写缓冲队列

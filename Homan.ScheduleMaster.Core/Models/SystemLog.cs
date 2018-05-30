@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homan.ScheduleMaster.Core.Models
+namespace Homan.ScheduleMaster.Base.Models
 {
     [Serializable]
     public class SystemLog

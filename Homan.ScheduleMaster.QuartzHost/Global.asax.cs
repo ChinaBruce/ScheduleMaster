@@ -1,7 +1,6 @@
-﻿using Homan.ScheduleMaster.Core.Models;
-using Homan.ScheduleMaster.Core.Utility;
-using Homan.ScheduleMaster.Infrastructure.EntityFramework;
-using Homan.ScheduleMaster.Infrastructure.Log;
+﻿
+using Homan.ScheduleMaster.Core.EntityFramework;
+using Homan.ScheduleMaster.Core.Log;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -11,6 +10,8 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Homan.ScheduleMaster.Base.Utility;
+using Homan.ScheduleMaster.Base.Models;
 
 namespace Homan.ScheduleMaster.QuartzHost
 {

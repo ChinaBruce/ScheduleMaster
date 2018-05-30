@@ -1,4 +1,4 @@
-namespace Homan.ScheduleMaster.Infrastructure.Migrations
+namespace Homan.ScheduleMaster.Core.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

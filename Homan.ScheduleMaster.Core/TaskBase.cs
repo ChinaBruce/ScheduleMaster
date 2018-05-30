@@ -1,11 +1,11 @@
-﻿using Homan.ScheduleMaster.Core.Models;
+﻿using Homan.ScheduleMaster.Base.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homan.ScheduleMaster.Core
+namespace Homan.ScheduleMaster.Base
 {
     /// <summary>
     /// 任务抽象基类，要加入的任务必须继承此类

@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -185,13 +186,13 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Homan.ScheduleMaster.Core\Homan.ScheduleMaster.Core.csproj">
+    <ProjectReference Include="..\Homan.ScheduleMaster.Core\Homan.ScheduleMaster.Base.csproj">
       <Project>{c54311df-0de0-475c-a0e8-140c8c06282b}</Project>
-      <Name>Homan.ScheduleMaster.Core</Name>
+      <Name>Homan.ScheduleMaster.Base</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Homan.ScheduleMaster.Infrastructure\Homan.ScheduleMaster.Infrastructure.csproj">
+    <ProjectReference Include="..\Homan.ScheduleMaster.Infrastructure\Homan.ScheduleMaster.Core.csproj">
       <Project>{2FFE6EB1-0D79-4603-B611-13FB7455B225}</Project>
-      <Name>Homan.ScheduleMaster.Infrastructure</Name>
+      <Name>Homan.ScheduleMaster.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
