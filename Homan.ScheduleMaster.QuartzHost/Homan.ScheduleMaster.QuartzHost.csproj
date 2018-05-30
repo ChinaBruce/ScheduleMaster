@@ -186,12 +186,12 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Homan.ScheduleMaster.Core\Homan.ScheduleMaster.Base.csproj">
+    <ProjectReference Include="..\Homan.ScheduleMaster.Base\Homan.ScheduleMaster.Base.csproj">
       <Project>{c54311df-0de0-475c-a0e8-140c8c06282b}</Project>
       <Name>Homan.ScheduleMaster.Base</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Homan.ScheduleMaster.Infrastructure\Homan.ScheduleMaster.Core.csproj">
-      <Project>{2FFE6EB1-0D79-4603-B611-13FB7455B225}</Project>
+    <ProjectReference Include="..\Homan.ScheduleMaster.Core\Homan.ScheduleMaster.Core.csproj">
+      <Project>{2ffe6eb1-0d79-4603-b611-13fb7455b225}</Project>
       <Name>Homan.ScheduleMaster.Core</Name>
     </ProjectReference>
   </ItemGroup>
