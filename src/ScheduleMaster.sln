@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2037
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homan.ScheduleMaster.Base", "Homan.ScheduleMaster.Base\Homan.ScheduleMaster.Base.csproj", "{C54311DF-0DE0-475C-A0E8-140C8C06282B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hos.ScheduleMaster.Base", "Hos.ScheduleMaster.Base\Hos.ScheduleMaster.Base.csproj", "{C54311DF-0DE0-475C-A0E8-140C8C06282B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homan.ScheduleMaster.Demo", "Homan.ScheduleMaster.Demo\Homan.ScheduleMaster.Demo.csproj", "{DB86F170-EAC9-442B-945B-B9E1249FC1B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hos.ScheduleMaster.Demo", "Hos.ScheduleMaster.Demo\Hos.ScheduleMaster.Demo.csproj", "{DB86F170-EAC9-442B-945B-B9E1249FC1B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homan.ScheduleMaster.Core", "Homan.ScheduleMaster.Core\Homan.ScheduleMaster.Core.csproj", "{2FFE6EB1-0D79-4603-B611-13FB7455B225}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hos.ScheduleMaster.Core", "Hos.ScheduleMaster.Core\Hos.ScheduleMaster.Core.csproj", "{2FFE6EB1-0D79-4603-B611-13FB7455B225}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homan.ScheduleMaster.QuartzHost", "Homan.ScheduleMaster.QuartzHost\Homan.ScheduleMaster.QuartzHost.csproj", "{BBBCC7E2-2022-4A2D-86B3-C3729BFB4E4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hos.ScheduleMaster.QuartzHost", "Hos.ScheduleMaster.QuartzHost\Hos.ScheduleMaster.QuartzHost.csproj", "{BBBCC7E2-2022-4A2D-86B3-C3729BFB4E4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homan.ScheduleMaster.Web", "Homan.ScheduleMaster.Web\Homan.ScheduleMaster.Web.csproj", "{065A2E7F-246C-44BB-8E40-B1D240B2A6E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hos.ScheduleMaster.Web", "Hos.ScheduleMaster.Web\Hos.ScheduleMaster.Web.csproj", "{065A2E7F-246C-44BB-8E40-B1D240B2A6E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
