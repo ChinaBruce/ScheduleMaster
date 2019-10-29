@@ -1,1 +1,1 @@
-![schedulemaster ](https://raw.githubusercontent.com/hey-hoho/ScheduleMaster/master/docs/image/logo.png)
+![schedulemaster ](https://files-cdn.cnblogs.com/files/hohoa/schedulemaster.ico)
